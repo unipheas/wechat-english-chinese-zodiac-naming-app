@@ -1,1 +1,45 @@
 /* pages/payment/payment.wxss */
+
+.message {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/**btn**/
+
+.btn {
+  background-color: #E85B48;
+  color:white;
+  padding: 30rpx;
+  border-radius: 3px;
+  font-size: 35rpx;
+  width: 500rpx;
+  text-align: center;
+  font-weight:bolder;
+}
+
+.btn:active {
+  background-color: #D03232;
+}
+
+.shake {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-3px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-6px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(7px, 0, 0);
+  }
+}
