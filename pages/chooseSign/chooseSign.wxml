@@ -1,5 +1,8 @@
+<view id='stars'></view>
+<view id='stars2'></view>
+<view id='stars3'></view>
 <view class="center">
-  <text>选择你想要的标志</text>
+  <text class="header">选择你想要的标志</text>
 </view>
 <view class="center">
   <image src="../images/rat.png" class="sign" data-sex="rat" bindtap="sendSign"></image>

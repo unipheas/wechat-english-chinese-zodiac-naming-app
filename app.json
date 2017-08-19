@@ -8,7 +8,7 @@
     "pages/getName/getName"
   ],
   "window":{
-    "navigationBarBackgroundColor": "#2217FF",
+    "navigationBarBackgroundColor": "#0C2A4C",
     "navigationBarTextStyle": "#FF1057",
     "navigationBarTitleText": "英文名称",
     "backgroundColor": "#eeeeee",

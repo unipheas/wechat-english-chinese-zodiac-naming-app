@@ -1,8 +1,16 @@
 <!--index.wxml-->
-<view class="container">
-  <text class="h1">你好</text>
+<view class="main">
   <view class="container">
-    <text>欢迎来到英文名字选择器</text>
+    <text class="h1">你好</text>
+    <text class="sub">欢迎来到英文名字选择器</text>
+    <view class="wave wave-1"></view>
+    <view class="wave wave-2"></view>
+    <view class="wave wave-3"></view>
   </view>
-  <view class="container"><button bindtap="nextPage">选择一个名称</button></view>
+</view>
+
+<view class="container">
+  <button type="primary" bindtap="nextPage">
+    <text class="weui-cell__ft weui-cell__ft_in-access btn-font">选择一个名称</text>
+  </button>
 </view>

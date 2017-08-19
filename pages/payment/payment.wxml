@@ -1,6 +1,6 @@
 <view class="container">
   <text>要获得您的名称单击“支付”</text>
   <view class="container">
-    <button bindtap="pay">¥1</button>  
+    <button type="primary" bindtap="pay">¥1</button>  
   </view>
 </view>

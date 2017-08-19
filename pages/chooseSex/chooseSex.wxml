@@ -1,7 +1,9 @@
-
-  <view class="container">
-      <view class="male" bindtap="male"> 男 </view> 
-  </view>
-  <view class="container">
-      <view class="female" bindtap="female"> 女 </view>
-  </view>
+<view id='stars'></view>
+<view id='stars2'></view>
+<view id='stars3'></view>
+<view class="container">
+    <view class="male btn" bindtap="male"> 男 </view> 
+</view>
+<view class="container">
+    <view class="female btn" bindtap="female"> 女 </view>
+</view>
