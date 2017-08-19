@@ -1,4 +1,3 @@
 <view class="container">
-  <view>{{sex.data}}</view>
-  <view>{{sign.data}}</view>
+  <view>{{finalNames}}</view>
 </view>

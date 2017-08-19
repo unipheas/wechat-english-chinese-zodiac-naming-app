@@ -1,25 +1,12 @@
 // pages/getName/getName.js
+var app = getApp()
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
     sex: '',
-    sign: ''
+    sign: '',
+    finalNames: []
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
     var _this = this;
     wx.getStorage({
       key: 'sex',
@@ -41,46 +28,33 @@ Page({
       },
     })
   },
+  onReady: function () {
+    var _this = this;
+    // Generate random names
+    var tempArray = [];
+    var n01 = app.globalData.names[this.data.sex.data];
+    var n02 = n01[this.data.sign.data];
+    var z = n02.length;
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
+    // loop to put the values of names object into temp array
+    for (var i =0; i < n02.length; i++) {
+      tempArray[i] = n02[i];
+    }
+
+    // Loop to randomly pick names and have unique values
+    for (var x = 0; x < 1; x++) {
+      var y = Math.floor(Math.random()*(z - 0)) + 0;
+      _this.setData({
+        finalNames: this.data.finalNames += tempArray[y]
+      })
+      var removed = tempArray.splice(y, 1);
+      z--;
+    }
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
-  }
+  onShow: function () {},
+  onHide: function () {},
+  onUnload: function () {},
+  onPullDownRefresh: function () {},
+  onReachBottom: function () {},
+  onShareAppMessage: function () {}
 })

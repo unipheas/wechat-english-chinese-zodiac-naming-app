@@ -24,6 +24,36 @@ App({
   },
 
   globalData: {
-    userInfo: null
+    userInfo: null,
+    names: {
+      'male': {
+        'rat': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James'],
+        'ox': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James'],
+        'tiger': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James'],
+        'rabbit': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James'],
+        'dragon': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James'],
+        'snake': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James'],
+        'horse': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James'],
+        'sheep': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James'],
+        'monkey': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James'],
+        'rooster': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James'],
+        'dog': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James'],
+        'pig': ['John', 'Bob', 'Carl', 'Jason', 'Brian', 'James']
+      },
+      'female': {
+        'rat': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
+        'ox': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
+        'tiger': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
+        'rabbit': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
+        'dragon': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
+        'snake': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
+        'horse': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
+        'sheep': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
+        'monkey': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
+        'rooster': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
+        'dog': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
+        'pig': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare']
+      }
+    }
   }
 })
