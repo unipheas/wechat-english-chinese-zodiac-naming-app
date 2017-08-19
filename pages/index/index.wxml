@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <text class="h1">你好</text>
+  <view class="container">
+    <text>欢迎来到英文名字选择器</text>
+  </view>
+  <view class="container"><button bindtap="nextPage">选择一个名称</button></view>
+</view>

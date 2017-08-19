@@ -1,0 +1,14 @@
+/* pages/chooseSex/chooseSex.wxss */
+.male {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.female {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 20px;
+}

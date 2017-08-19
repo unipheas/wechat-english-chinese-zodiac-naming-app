@@ -1,0 +1,17 @@
+<view class="center">
+  <text>选择你想要的标志</text>
+</view>
+<view class="center">
+  <image src="../images/rat.png" class="sign" data-sex="rat" bindtap="sendSign"></image>
+  <image src="../images/ox.png" class="sign" data-sex="ox" bindtap="sendSign"></image>
+  <image src="../images/tiger.png" class="sign" data-sex="tiger" bindtap="sendSign"></image>
+  <image src="../images/rabbit.png" class="sign" data-sex="rabbit" bindtap="sendSign"></image>
+  <image src="../images/dragon.png" class="sign" data-sex="dragon" bindtap="sendSign"></image>
+  <image src="../images/snake.png" class="sign" data-sex="snake" bindtap="sendSign"></image>
+  <image src="../images/horse.png" class="sign" data-sex="horse" bindtap="sendSign"></image>
+  <image src="../images/sheep.png" class="sign" data-sex="sheep" bindtap="sendSign"></image>
+  <image src="../images/monkey.png" class="sign" data-sex="monkey" bindtap="sendSign"></image>
+  <image src="../images/rooster.png" class="sign" data-sex="rooster" bindtap="sendSign"></image>
+  <image src="../images/dog.png" class="sign" data-sex="dog" bindtap="sendSign"></image>
+  <image src="../images/pig.png" class="sign" data-sex="pig" bindtap="sendSign"></image> 
+</view>

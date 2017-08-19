@@ -1,0 +1,7 @@
+
+  <view class="container">
+      <view class="male" bindtap="male"> 男 </view> 
+  </view>
+  <view class="container">
+      <view class="female" bindtap="female"> 女 </view>
+  </view>
