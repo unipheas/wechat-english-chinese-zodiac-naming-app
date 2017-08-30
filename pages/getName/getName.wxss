@@ -1,1 +1,2 @@
 /* pages/getName/getName.wxss */
+#imageNames {display: none;}

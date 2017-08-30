@@ -54,6 +54,20 @@ App({
         'dog': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare'],
         'pig': ['Mary', 'Susan', 'Jenny', 'Jessica', 'Britney', 'Clare']
       }
+    },
+    meaning: {
+      'rat': ['random meaning', 'random meaning', 'random meaning'],
+      'ox': ['random meaning', 'random meaning', 'random meaning'],
+      'tiger': ['random meaning', 'random meaning', 'random meaning'],
+      'rabbit': ['random meaning', 'random meaning', 'random meaning'],
+      'dragon': ['random meaning', 'random meaning', 'random meaning'],
+      'snake': ['random meaning', 'random meaning', 'random meaning'],
+      'horse': ['random meaning', 'random meaning', 'random meaning'],
+      'sheep': ['random meaning', 'random meaning', 'random meaning'],
+      'monkey': ['random meaning', 'random meaning', 'random meaning'],
+      'rooster': ['random meaning', 'random meaning', 'random meaning'],
+      'dog': ['random meaning', 'random meaning', 'random meaning'],
+      'pig': ['random meaning', 'random meaning', 'random meaning']
     }
   }
 })

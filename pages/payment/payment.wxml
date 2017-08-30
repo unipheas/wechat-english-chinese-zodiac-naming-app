@@ -1,6 +1,0 @@
-<view class="container">
-  <text class="message">要获得您的名称单击“支付”</text>
-  <view class="container">
-    <button type="primary" bindtap="pay" class="btn vb shake">¥1</button>
-  </view>
-</view>

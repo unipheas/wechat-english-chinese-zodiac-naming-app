@@ -12,7 +12,7 @@ Page({
   sendSign: function (e) {
     wx.setStorage({ key: 'sign', data: e.target.dataset.sex });
     wx.navigateTo({
-      url: '../payment/payment',
+      url: '../getName/getName',
     })
   }
 })
